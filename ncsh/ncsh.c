@@ -55,7 +55,7 @@ static char *get_prompt() {
 
 /*
  * The following is an implementation of a simplified bash shell.
- * This projet contains methods for scanning, parsing, and executig
+ * This projet contains methods for scanning, parsing, and executing
  * user input at the command line. Each line of text will be scanned in
  * which characters will be tokenized. The list of tokens will then be
  * parsed into a tree according to a simplified grammar dervived from 
@@ -78,5 +78,3 @@ int main() {
    }
    exit(status);
 }
-
-
