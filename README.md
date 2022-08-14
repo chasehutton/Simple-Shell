@@ -1,5 +1,5 @@
 # Simple-Shell
-ncsh (not complex shell) is my first attempt at a command language interpreter. The grammar it supports is defined here: 
+ncsh (not complex shell) is a first attempt at a command language interpreter. The grammar it supports is defined here: 
 
 L = E \
 E = T Eopt \
