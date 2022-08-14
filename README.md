@@ -18,6 +18,6 @@ Using methods described in this set of notes from the University of Copenhagen: 
 
 the grammar is transformed to a more implementation friendly format.
 
-Note that the names of each grammar rule is arbitrary.
+Note that the name of each grammar rule is arbitrary.
 
 Effectively this shell supports a simplified version of Pipelines, Lists, AND lists, OR lists, Redirection, Grouping, Simple commands, and glob patterns. 
