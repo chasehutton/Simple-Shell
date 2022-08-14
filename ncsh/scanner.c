@@ -93,6 +93,7 @@ static Token *string() {
    return make_token(TOKEN_STRING);
 }
 
+// TODO Add support for single and double quote strings
 Token *scan_token() {
    skip_white_space();
    g_column += (int)(scanner.current - scanner.start);
