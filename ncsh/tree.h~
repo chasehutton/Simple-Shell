@@ -1,0 +1,14 @@
+#if !defined(TREE_H)
+#define TREE_H
+#endif
+
+typedef struct tree {
+  enum { NONE = 0, AND, OR, PIPE, SUBSHELL, ASYNC } conjunction;
+  struct tree *right;
+  struct tree *left;
+  char **argv;
+} Tree;
+
+static const char *conj[] __attribute__((unused)) = { "err", "&&", "||", "|", "()", "&"};
+
+Tree *parse(char *);
