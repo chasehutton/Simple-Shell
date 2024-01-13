@@ -1,7 +1,6 @@
 # Simple-Shell
 ncsh (not complex shell) is a first attempt at a command language interpreter. The grammar it supports is defined here: 
 
-L = E \
 E = T Eopt \
 Eopt = "&" | ";" | ∧ \
 T = P Topt \
@@ -17,7 +16,5 @@ This grammar is a subset of the BASH grammar as defined here: https://cmdse.gith
 Using methods described in this set of notes from the University of Copenhagen: https://www.academia.edu/2801015/Grammars_and_parsing_with_C_2_0
 
 the grammar is transformed to a more implementation friendly format.
-
-Note that the name of each grammar rule is arbitrary.
 
 Effectively this shell supports a simplified version of Pipelines, Lists, AND lists, OR lists, Redirection, Grouping, Simple commands, and glob patterns. 
